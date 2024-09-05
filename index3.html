@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- link:css shortcut for stylesheet, link tags should be in head tag -->
+   <link rel="stylesheet" href="style.css">
+   <script src="app.js"></script>
+   <!-- adding non-standard font -->
+   <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>BrightBlog</title>
+</head>
+<body>
+   <header>
+       <!-- header goes here -->
+        <h1>BrightBlog</h1>
+        <nav>
+           <!-- navigation bar -->
+            <ul id="nav-ul">
+               <!-- unordered list (bullet point nav links) -->
+                <li><!-- list content goes here, new li tag for each nav link -->
+                   <a href="" class="navbutton">Home</a>
+                   <!-- anchor tag for end user - in "" put URL, between <> enter clickable text --></li>
+                <li><a href="" class="navbutton">About us</a></li>
+                <li><a href="" class="navbutton">Contacts</a></li>
+            </ul>
+        </nav>
+   </header>
+   <main>
+       <!-- main content here -->
+        <div id="main-content">
+            <div>
+                <article>
+                    <header>
+                        <!-- article's header here, use as many h2 + h3 tags as needed, only 1 h1 tag-->
+                        <h2>Wood Bees</h2>
+                        <h3>Raw honey</h3>
+                    </header>
+                    <main>
+                        <p>Based in Rudyard</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus debitis neque reiciendis dolores esse officiis non tenetur, corporis, doloribus aliquam velit necessitatibus eaque corrupti! Hic eum ipsum quibusdam mollitia at nemo vitae. Impedit vitae quos ex molestias assumenda at sequi eos debitis aspernatur dolor. At sequi, dolor quidem consequuntur voluptatem labore, aliquam adipisci eum voluptates cumque error beatae. Exercitationem est aspernatur expedita vel odit voluptatibus architecto, perferendis odio, illum fugiat reprehenderit ab totam eius harum dolor nam cumque minima. Id quidem, inventore consectetur, vero corrupti quae impedit culpa, mollitia quia tenetur est? Necessitatibus commodi temporibus facilis dolorem dicta fugit iusto eveniet ipsa quas natus, quasi minus accusamus reprehenderit voluptas beatae? Ut vero error quisquam iusto incidunt non dolore tempore facere repellendus. Nostrum, saepe soluta eligendi, perspiciatis aspernatur quibusdam veritatis exercitationem doloremque accusantium quidem corporis odit placeat blanditiis modi earum illum! Quos culpa obcaecati sit aperiam rem facilis necessitatibus! Sed recusandae eos, eligendi ducimus dolorem incidunt illum tenetur qui unde ratione rerum doloremque consequuntur, aut animi. Temporibus debitis eaque dolores nam beatae quia molestiae minima saepe asperiores! Natus culpa qui inventore! Nemo at autem rem velit nam iure, corporis eum quis, reiciendis voluptate ipsam minus delectus esse itaque. Reprehenderit sequi at aperiam aliquam, modi quam ex fugit libero rem assumenda nam delectus, quo ab. Ut officiis veniam in, quidem porro magni dicta velit laboriosam id temporibus a delectus enim maxime, est aliquam tempore officia? Libero, vero sequi. Similique enim optio, velit possimus neque modi alias, quis dicta libero incidunt explicabo delectus.</p>
+                        <blockquote>
+                            "Bees make honey" - <cite>D. Wood, 2024</cite>
+                        </blockquote>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, qui, cum eos reprehenderit odit consectetur natus iure ab illum recusandae fuga blanditiis earum nostrum eligendi totam perferendis veritatis. Similique repellat neque maxime laborum repudiandae? Iure ad, commodi quasi rem quidem iusto eius vitae iste tempora praesentium doloribus obcaecati voluptate molestias quos perferendis possimus consectetur fugiat porro provident nam. Aperiam iusto facilis totam atque dolorem, tempora quae ex inventore repellendus nihil commodi consequuntur veritatis necessitatibus molestiae autem nam, eveniet sequi alias sit perferendis nulla, laborum excepturi magni. Enim veniam eligendi laudantium, repudiandae magni voluptatem nisi repellendus, officiis maxime dignissimos, ex autem?</p>
+                    </main>
+                    <footer>
+                        <h2>Author: Zilpha Wood</h2>
+                        <img src="https://placebear.com/100/100" alt="A profile pic of a brown bear">
+                        <h3>Last posted: 22 Aug 2024</h3>
+                        <a href="https://en.wikipedia.org/wiki/Bee" target="_blank">Bees</a>
+                    </footer>
+                </article>
+            </div>
+            <aside>
+                <!-- creates side tab -->
+                 <section>
+                    <h4>Filter by month</h4>
+                    <nav>
+                        <!-- used to navigate website -->
+                         <ul>
+                            <li><a href="">Filter for Jan</a></li>
+                            <li><a href="">Filter for Feb</a></li>
+                            <li><a href="">Filter for Mar</a></li>
+                         </ul>
+                    </nav>
+                 </section>
+                 <section>
+                    <h4>Filter by category</h4>
+                    <nav>
+                        <ul>
+                            <li><a href="">Honey bees</a></li>
+                            <li><a href="">Pollen</a></li>
+                            <li><a href="">Hives</a></li>
+                            <li><a href="">Health benefits</a></li>
+                        </ul>
+                    </nav>
+                 </section>
+            </aside>
+        </div>
+        <hr>
+        <h2>Sign up</h2>
+        <form action="" method="">
+            <!-- creates boxes to submit name, email, password. n.b. input type for email and password is specific -->
+            <label for="first_name">First Name</label> 
+            <input type="text" id="first_name" name="first_name" required>
+            <br>
+            <label for="last_name">Last Name</label> 
+            <input type="text" id="last_name" name="last_name" required>
+            <br>
+            <label for="email">Email Address</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+            <br>
+            <!-- creates single option multiple choice buttons -->
+            <label for="favourite_bee">Favourite Bee:</label>
+            <input type="radio" name="favourite_bee" id="honey" value="honey">
+            <label for="honey">Honey bee</label>
+            <input type="radio" name="favourite_bee" id="bumble" value="bumble">
+            <label for="bumble">Bumble bee</label>
+            <input type="radio" name="favourite_bee" id="mason" value="mason">
+            <label for="mason">Mason bee</label>
+            <input type="radio" name="favourite_bee" id="mining" value="mining">
+            <label for="mining">Mining bee</label>
+            <input type="radio" name="favourite_bee" id="carding" value="carding">
+            <label for="carding">Carding bee</label>
+            <br>
+            <!-- creates drop down selection -->
+            <label for="country">Country:</label>
+            <select name="country" id="country">
+                <option value="england">England</option>
+                <option value="scotland">Scotland</option>
+                <option value="wales">Wales</option>
+                <option value="northern_ireland">Northern Ireland</option>
+            </select>
+            <br>
+            <!-- creates text box -->
+            <label for="bio">Biography</label>
+            <textarea name="bio" id="bio" cols="30" rows="5"></textarea>
+            <br>
+            <!-- creates checkbox -->
+            <input type="checkbox" id="subscribe" name="subscribe">
+            <label for="subscribe">Subscribe for updates!</label>
+            <br>
+            <!-- creates button to submit form -->
+            <input type="submit" value="Send">
+        </form>
+   </main>
+   <footer>
+       <!-- footer here -->
+        <hr>
+        <h2>BrightBlog</h2>
+        <section>
+            <nav>
+                <ul id="footer-ul">
+                    <div>
+                        <!-- div tag used to help organise within section - idea to create 2 columns of links in footer tag -->
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Careers</a></li>
+                    </div>
+                    <div>
+                    <li><a href="">Privacy policy</a></li>
+                    <li><a href="">Terms and conditions</a></li>
+                    <li><a href="">Cookie policy</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </section>
+   </footer>
+</body>
+</html>
